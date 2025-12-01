@@ -11,7 +11,7 @@ header{
   justify-content: space-between;
   gap: 20px;
   padding: 12px 22px;
-  background: #2e00a5; /* secondary */
+  background: #2e00a5;
   border-bottom: 3px solid rgba(255,255,255,0.03);
 }
 
@@ -95,6 +95,10 @@ main h1 {
   justify-content: start;
   gap: 8px;
   padding-top: 6px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+  text-shadow: 0 0 20px #000000, 0 0 40px #000000, 0 0 60px #000000;
 }
 
 .box1_col1 :hover, .box1_col3 :hover {
@@ -159,6 +163,11 @@ main h1 {
   justify-content: start;
   gap: 8px;
   padding-top: 6px;
+  gap: 8px;
+  padding-top: 6px;
+  background: #000000;
+  border-radius: 6px;
+  padding: 10px;
 }
 
 .box1_col3 h2{
@@ -175,7 +184,6 @@ main h1 {
 }
 
 
-/* Ensure .box1 is relative */
 .box1 {
     position: relative;
     display: grid;
@@ -188,7 +196,7 @@ main h1 {
     overflow: hidden;
 }
 
-/* Normal wrapper */
+
 .expand_wrapper {
     position: relative;
     width: 100%;
@@ -197,7 +205,7 @@ main h1 {
     z-index: 1;
 }
 
-/* Middle image default */
+
 .middle-img {
     width: 100%;
     height: 100%;
@@ -205,7 +213,7 @@ main h1 {
     border-radius: 6px;
 }
 
-/* X button default */
+
 .X_btn {
     display: none;
     position: absolute;
