@@ -240,3 +240,76 @@ footer a{
   text-decoration: none;
   margin-right: 10px;
 }
+
+
+/*  MAGIC PAGE */
+.magic_layout {
+  width: min(1200px, 94%);
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+.magic_content {
+  background: #111;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  min-height: 200px;
+}
+.magic_content h2 {
+  text-align: center;
+  font-family: "Astloch", cursive;
+}
+.magics_title {
+  font-family: "Astloch", cursive;
+  font-size: 4rem;
+}
+.magic_section {
+  display: none;
+}
+.magic_section:target {
+  display: block;
+}
+.magic_section h2 {
+  font-family: "Astloch", cursive;
+  font-size: 40px;
+  margin-top: 0;
+  color: #fbff00;
+}
+.magic_tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 10px;
+  font-family: "Astloch", cursive;
+}
+.magic_tabs a {
+  color: #ffffff;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.magic_tabs a:hover {
+  color: #fbff00;
+  transform: translateX(6px);
+}
+.magic_tabs a:focus, .magic_tabs a:target {
+  color: #fbff00;
+}
+.class-list {
+  column-count: 3;        
+  column-gap: 40px;
+  max-height: 300px;
+}
+.class-list ul {
+  margin: 0;
+  padding-left: 92px;
+     
+}
+.class-list li {
+  break-inside: avoid;
+  font-size: 22px;       
+  line-height: 1.4;
+}
