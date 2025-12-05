@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  font-family: "Shadows Into Light", cursive;
+  background: #000000;
+  color: #ffffff;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 22px;
+  background: #2e00a5;
+  border-bottom: 3px solid rgba(255,255,255,0.03);
+}
+.logo {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: #fbff00;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+/* BODY */
+
+.history_title{
+  display:flex;
+  text-align:center;
+  padding-left:45%;
+}
+
+.history_section {
+  display: none;
+}
+.history_section:target {
+  display: block;
+}
+.history_section h2 {
+  font-family: "Astloch", cursive;
+  font-size: 40px;
+  margin-top: 0;
+  color: #fbff00;
+}
+.history_layout {
+  width: min(1200px, 94%);
+  margin: 60px auto;
+  margin-left:15%;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+.history_content {
+  background: #111;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  min-height: 200px;
+  display:flex;
+  
+  
+}
+.history_content h2 {
+  text-align: center;
+  font-family: "Astloch", cursive;
+}
+.history_title {
+  font-family: "Astloch", cursive;
+  font-size: 4rem;
+}
+.history_section {
+  display: none;
+  padding-left:100px;
+}
+.history_section:target {
+  display: block;
+}
+.history_section h2 {
+  font-family: "Astloch", cursive;
+  font-size: 40px;
+  margin-top: 0;
+  color: #fbff00;
+}
+.history_tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 10px;
+  font-family: "Astloch", cursive;
+}
+.history_tabs a {
+  color: #ffffff;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.history_tabs a:hover {
+  color: #fbff00;
+  transform: translateX(6px);
+}
+.history_tabs a:focus, .history_tabs a:target {
+  color: #fbff00;
+}
+.class-list {
+  column-count: 3;        
+  column-gap: 40px;
+  max-height: 300px;
+}
+.class-list ul {
+  margin: 0;
+  padding-left: 92px;
+     
+}
+.class-list li {
+  break-inside: avoid;
+  font-size: 22px;       
+  line-height: 1.4;
+}
