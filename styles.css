@@ -245,43 +245,43 @@ footer a{
 /*  MAGIC PAGE */
 .magic_layout {
   width: min(1200px, 94%);
-  margin: 60px auto;
+  margin: 70px auto;
   display: grid;
-  grid-template-columns: 6fr 2fr;
-  gap: 40px;
+  grid-template-columns: 7fr 2fr;
+  gap: 50px;
   align-items: start;
-}
-.magic_content {
-  background: #111;
-  border: 2px solid #333;
-  border-radius: 12px;
-  padding: 30px;
-  min-height: 200px;
-}
-.magic_content h2 {
-  text-align: center;
-  font-family: "Astloch", cursive;
 }
 .magics_title {
   font-family: "Astloch", cursive;
   font-size: 4rem;
-}
-.magic_section {
-  display: none;
-}
-.magic_section:target {
-  display: block;
-}
-.magic_section h2 {
-  font-family: "Astloch", cursive;
-  font-size: 40px;
-  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
   color: #fbff00;
+  text-shadow: 0 0 10px rgba(255,255,0,0.35);
+}
+.magic_content {
+  background: #0d0d0d;
+  border: 2px solid #2e2e2e;
+  border-radius: 14px;
+  padding: 32px;
+  min-height: 230px;
+  max-height: 350px;
+  overflow-y: auto;
+  box-shadow: 0 0 18px rgba(0,0,0,0.45);
+}
+.magic_content h2 {
+  text-align: center;
+  font-family: "Astloch", cursive;
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 22px;
+  color: #ffffff;
 }
 .magic_tabs {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  justify-content: space-evenly;
+  height: 100%;
   padding-top: 10px;
   font-family: "Astloch", cursive;
 }
@@ -289,27 +289,43 @@ footer a{
   color: #ffffff;
   font-size: 28px;
   text-decoration: none;
-  transition: 0.2s;
+  padding: 6px 4px;
+  border-left: 3px solid transparent;
+  transition: 0.25s ease;
+  display: block;
 }
 .magic_tabs a:hover {
   color: #fbff00;
-  transform: translateX(6px);
+  border-left: 3px solid #fbff00;
+  transform: translateX(8px);
 }
 .magic_tabs a:focus, .magic_tabs a:target {
   color: #fbff00;
+  border-left: 3px solid #fbff00;
 }
 .class-list {
-  column-count: 3;        
+  column-count: 3;
   column-gap: 40px;
   max-height: 300px;
+  padding: 0 10px;
 }
 .class-list ul {
   margin: 0;
-  padding-left: 92px;
-     
+  padding-left: 20px;
 }
 .class-list li {
   break-inside: avoid;
-  font-size: 22px;       
-  line-height: 1.4;
+  font-size: 22px;
+  line-height: 1.5;
+  padding: 4px 0;
+}
+.magic_content::-webkit-scrollbar {
+  width: 10px;
+}
+.magic_content::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 6px;
+}
+.magic_content::-webkit-scrollbar-thumb:hover {
+  background: #666;
 }
