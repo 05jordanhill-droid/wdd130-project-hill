@@ -105,13 +105,6 @@ main h1 {
   color: #ff0000;
 }
 
-.box1_col1 h2{
-  margin: 0;
-  font-family: "Astloch", cursive;
-  font-size: 30px;
-  color: #ff0000;
-}
-
 .box1_col1 a{
   color: #fbff00;
   text-decoration: none;
@@ -163,18 +156,9 @@ main h1 {
   justify-content: start;
   gap: 8px;
   padding-top: 6px;
-  gap: 8px;
-  padding-top: 6px;
   background: #000000;
   border-radius: 6px;
   padding: 10px;
-}
-
-.box1_col3 h2{
-  margin: 0;
-  font-family: "Astloch", cursive;
-  font-size: 30px;
-  color: #ff0000;
 }
 
 .box1_col3 a{
@@ -183,52 +167,19 @@ main h1 {
   font-size: 20px;
 }
 
-
-.box1 {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 18px;
-    background: #222222;
-    padding: 20px;
-    border-radius: 10px;
-    min-height: 360px;
-    overflow: hidden;
-}
-
-
-.expand_wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    z-index: 1;
-}
-
-
-.middle-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-
 .X_btn {
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 30;
-    font-family: "Astloch", cursive;
-    color: #ff0000;
-    background: rgba(0,0,0,0.25);
-    padding: 6px 8px;
-    border-radius: 6px;
-    cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 30;
+  font-family: "Astloch", cursive;
+  color: #ff0000;
+  background: rgba(0,0,0,0.25);
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
 }
-
-
 
 footer{
   background: #2e00a5;
@@ -249,8 +200,6 @@ footer a{
   margin-right: 10px;
 }
 
-
-/*  MAGIC PAGE */
 .magic_layout {
   width: min(1200px, 94%);
   margin: 60px auto;
@@ -314,10 +263,25 @@ footer a{
 .class-list ul {
   margin: 0;
   padding-left: 92px;
-     
 }
 .class-list li {
   break-inside: avoid;
   font-size: 22px;       
   line-height: 1.4;
+}
+
+.link-box {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-box {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-box h2 {
+  color: #ff0000;
 }
