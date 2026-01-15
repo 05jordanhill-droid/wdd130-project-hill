@@ -101,7 +101,7 @@ main h1 {
   text-shadow: 0 0 20px #000000, 0 0 40px #000000, 0 0 60px #000000;
 }
 
-.box1_col1 :hover, .box1_col3 :hover {
+.box1_col1:hover, .box1_col3:hover {
   color: #ff0000;
 }
 
